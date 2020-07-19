@@ -1,7 +1,7 @@
 # Write your code here!
 def game_hash
   answer = {:home => {
-              colors: {},
+              colors: ["Black", "White"],
               team_name: "Brooklyn Nets",
               players: [
                 {player_name: "Alan Anderson",
@@ -56,7 +56,7 @@ def game_hash
                   },
               ]},
               :away =>  {
-              colors: {},
+              colors: ["Turquoise", "Purple"],
               team_name: "Charlotte Hornets",
               players: [
                 {player_name: "Jeff Adrien",
